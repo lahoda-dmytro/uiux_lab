@@ -75,6 +75,16 @@ body {
 	background-color: #fff
 }
 
+.skip-link {
+    position: absolute;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 3px;
+    z-index: 100;
+}
+
+
 [tabindex="-1"]:focus:not(:focus-visible) {
 	outline: 0!important
 }
